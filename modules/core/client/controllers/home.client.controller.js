@@ -7,45 +7,40 @@ angular.module('core').controller('HomeController', ['$scope', 'Authentication',
 
     $scope.alerts = [
       {
-        icon:'glyphicon-user',
-        colour:'btn-success',
-        total:'20,408',
-        description: "TOTAL CUSTOMERS",
+        icon: 'glyphicon-user',
+        colour: 'btn-success',
+        total: '20,408',
+        description: 'TOTAL CUSTOMERS'
       },
-
       {
-        icon:'glyphicon-calendar',
-        colour:'btn-primary',
-        total:'8,382',
-        description: "UPCOMING EVENTS",
+        icon: 'glyphicon-calendar',
+        colour: 'btn-primary',
+        total: '8,382',
+        description: 'UPCOMING EVENTS'
       },
-
       {
-        icon:'glyphicon-edit',
-        colour:'btn-success',
-        total:'20,408',
-        description: "NEW CUSTOMERS IN 24H",
+        icon: 'glyphicon-edit',
+        colour: 'btn-success',
+        total: '527',
+        description: 'NEW CUSTOMERS IN 24H'
       },
-
       {
-        icon:'glyphicon-eye-record',
-        colour:'btn-info',
-        total:'85,000',
-        description: "EMAILS SENT",
+        icon: 'glyphicon-record',
+        colour: 'btn-info',
+        total: '85,000',
+        description: 'EMAILS SENT'
       },
-
       {
-        icon:'glyphicon-eye-open',
-        colour:'btn-warning',
-        total:'268',
-        description: "TOTAL CUSTOMERS",
-      }
-
+        icon: 'glyphicon-eye-open',
+        colour: 'btn-warning',
+        total: '268',
+        description: 'FOLLOW UPS REQUIRED'
+      },
       {
-        icon:'glyphicon-eye-flag',
-        colour:'btn-danger',
-        total:'348',
-        description: "TOTAL CUSTOMERS",
+        icon: 'glyphicon-flag',
+        colour: 'btn-danger',
+        total: '348',
+        description: 'REFERALS TO MODERATE'
       }
     ];
 
