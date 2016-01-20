@@ -4,7 +4,7 @@ var defaultEnvConfig = require('./default');
 
 module.exports = {
   db: {
-    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://<dbuser>:<dbpassword>@ds045465.mongolab.com:45465/myfirstapp-db',
+    uri: process.env.MONGOHQ_URL || process.env.MONGOLAB_URI || 'mongodb://<dbuser>:<dbpassword>@ds047065.mongolab.com:47065/appmakers',
     options: {
       user: 'MongoDBAdmin',
       pass: '!@12qwaszx'
