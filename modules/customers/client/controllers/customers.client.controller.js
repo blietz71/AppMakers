@@ -5,23 +5,25 @@
 var customersApp = angular.module('customers');
 
 customersApp.controller('CustomersController', ['$scope', '$stateParams', 'Authentication', 'Customers',
-  function($scope, $stateParams, Authentication, Customers) {
+    function($scope, $stateParams, Authentication, Customers) {
 
       this.authentication = Authentication;
 
     // Find a list of Customers
-          this.customers = Customers.query();
+      this.customers = Customers.query();
 
-  }
+    }
 ]);
 
 customersApp.controller('CustomersCreateController', ['$scope', 'Customers',
     function($scope, Customers) {
+
     }
 ]);
 
 customersApp.controller('CustomersEditController', ['$scope', 'Customers',
     function($scope, Customers) {
+
     }
 ]);
 
